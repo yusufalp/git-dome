@@ -1,0 +1,32 @@
+form {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	margin: auto;
+}
+
+label {
+	font-size: 24px;
+	margin-bottom: 3px;
+}
+
+input,
+button {
+	border-radius: 10px;
+	border: 1px solid black;
+	margin-bottom: 24px;
+	padding: 12px;
+}
+
+button {
+	border: none;
+	background-color: teal;
+	color: white;
+	font-size: 16px;
+}
+
+@media screen and (max-width: 720px) {
+	form {
+		width: 80%;
+	}
+}
